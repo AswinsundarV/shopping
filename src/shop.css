@@ -1,0 +1,77 @@
+
+.shops{
+    height: auto;
+}
+.shop{
+
+     display: grid;
+     grid-template-columns:  auto auto auto ;
+     gap: 50px;
+    background-color: white;
+     
+}
+img{
+display: flex;
+justify-content: center;
+margin: auto;
+padding: 50px
+} 
+.shopping{
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 ;
+    border-radius: 10px;
+} 
+ button{
+    width: 100px;
+    margin-left: 180px;
+    background-color: #7fffd4;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+    box-shadow: 005px #03e9f4, 0015px #03e9f4, 025px #03e9f4, 00100px #03e9f4;
+ 
+    
+} 
+ button:hover{
+    background-color: wheat;
+} 
+.navbarsearch{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: transparent;
+   
+
+} 
+a{
+    text-decoration: none;
+    font-size: 20px;
+ 
+}
+.firsts{
+    background-color: aquamarine;
+    padding: 50px 0px;
+    display: flex;
+    row-gap: 50px;
+    flex-direction:row-reverse;
+    
+
+
+}
+
+h3,p{
+    text-align: center;
+}
+.navbar{
+    margin-left: 200px;
+}
+h1{
+    color: black;
+}
+.logo{
+    width: 50px;
+    height: 100px;
+}
